@@ -1,3 +1,138 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+html {
+    font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	max-width: 880px;
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 36px;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	font-size: 150%;
+    width: 69%;
+    color: gray;
+}
+
+header nav a {
+	color: gray;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+
+.cta {
+	display: flex;
+	justify-content: flex-end;
+	margin: 70px 0 74px 0;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+	padding: 0 1% 0 0;
+	width: 50%;
+}
+
+.cta p {
+    font-family: Helvetica, sans-serif;
+	border: 1px solid black;
+	background: white;
+	padding: 7px 43px;
+	margin-top: 10px;
+	font-size: 50%;
+	
+}
+
+.cta a {
+	color: black;
+	text-decoration: none;
+}
+
+.cta a:hover p {
+	background: black;
+	color: white;
+}
+
+
+.middle-content {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 36px 0;
+}
+
+.top-content, .bottom-content {
+	display: flex;
+	justify-content: space-between;
+	font-size: 200%;
+}
+
+.top-content .text-content {
+	width: 50%;
+}
+
+.bottom-content .text-content {
+	width: 35%;
+	padding: 0 2% 0 0;
+}
+
+.middle-img {
+	margin: 30px 0 28px 0;
+}
+
+
+.contact {
+	margin: 35px 0;
+	font-size: 200%;
+}
+
+.contact p {
+	margin: 15px 0;
+}
+
+footer {
+	text-align: center;
+	margin: 38px 0;
+	font-size: 200%;
+}
+
+
+.services-header-img {
+	margin: 25px 0px;
+}
+
+
+
+.services {
+	border-bottom: 1px solid black;
+	padding-bottom: 40px;
+}
+
+.services h2 {
+	font-size: 300%;
+}
+
+
 
 
